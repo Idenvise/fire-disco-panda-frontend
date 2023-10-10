@@ -1,0 +1,149 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__wrapper-about {
+    display: flex;
+    margin: 230px 0 0 10%;
+}
+
+.main__wrapper-images {
+    display: flex;
+    align-items: center;
+    margin: 203px 0 0;
+    justify-content: center;
+    justify-items: center;
+}
+
+.main__company {
+    font-size: 54px;
+    line-height: 64.8px;
+    margin: 70px  0 0 0;
+}
+
+.main__about-comp {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+.main__for {
+    font-size: 32px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0 0 0 5px;
+}
+
+.main__name {
+    background-image: url('../../../public/images/FDP.svg');
+    width: 409px;
+    height: 209px;
+    margin-left: 7px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main__image {
+    margin-right: 28px;
+    filter: grayscale(1);
+}
+
+.main__image_S7 {
+    filter: grayscale(0);
+}
+
+.main__image:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 1368px) {
+    .main__image {
+        max-width: 12%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .main__about-comp {
+        max-width: 50%;
+    }
+    .main__company {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main__name {
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .main__image {
+        max-width: 10%;
+    }
+    .main__wrapper-about {
+        margin: 125px 0 0 8%;
+    }
+    .main__company {
+        font-size: 28px;
+        line-height: 28px;
+        margin:  0 0 0;
+    }
+    .main__name {
+        width: 240px;
+        height: 120px;
+    }
+    .main__about-comp {
+        max-width: 56%;
+        margin-top: 35px;
+    }
+    .main__for {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .main__wrapper-images {
+        margin: 130px 50px 0;
+    }
+    .main__image {
+        margin-right: 10px;
+        max-width: 13%;
+    }
+}
+
+@media screen and (max-width: 725px) {
+   .main__wrapper-about {
+        flex-direction: column;
+   }
+   .main__name {
+        margin-left: 0;
+   }
+}
+
+@media screen and (max-width: 500px) {
+    .main__company {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main__wrapper-about {
+        margin: 70px 0 0 18px;
+    }
+    .main__for {
+        font-size: 14px;
+        line-height: 17px;
+        text-wrap: nowrap;
+    }
+    .main__name {
+        max-width: 100%;
+        margin: 0 0 0 -20px;
+    }
+    .main__wrapper-images {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px 10px 0;
+    }
+    .main__image {
+        min-width: 21%;
+        margin: 0 3px;
+    }
+ }
+

@@ -1,0 +1,134 @@
+.contacts__label::after {
+    content: 'Contact Us';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    margin-left: -18px;
+}
+
+.contacts__label {
+    margin: 300px 0 0 140px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    margin-top: 32px;
+}
+
+.contacts__map {
+    display: flex;
+    max-width: 677px;
+    border-radius: 8px;
+    width: 75%;
+    max-height: 575px;
+    background-color: #F3F3F3;
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 130px;
+    box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+    width: 33.5%;
+    margin: 0 128px 0 23px;
+    box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background-color: #F3F3F3;
+}
+
+.contacts__form-name {
+    font-size: 22px;
+    line-height: 26.4px;
+    font-weight: 400;
+    margin: 45px 0 22px 44px
+}
+
+.contacts__input {
+    font-size: 18px;
+    line-height: 21.6px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #6A51A2;
+    margin: 0 43px 40px;
+}
+
+.contacts__input:last-of-type {
+    resize: none;
+}
+
+.contacts__submit {
+    height: 67px;
+    margin: 0 28px 35px;
+    background-color: #C4C4C4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 830px) {
+    .contacts__label::after {
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0 0 0 -8px;
+    }
+    .contacts__label {
+        margin: 96px 0 0 84px;
+    }
+    .contacts__map {
+        margin-left: 65px;
+        width: 50%;
+    }
+    .contacts__form {
+        margin-right: 65px;
+        width: 50%;
+    }
+    .contacts__form-name {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 13px 0 5px 37px;
+    }
+    .contacts__input {
+        margin: 0 35px 10px;
+        font-size: 14px;
+    }
+    .contacts__submit {
+        margin: 20px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contacts__wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 30px 20px;
+    }
+    .contacts__map {
+        max-width: none;
+        width: 100%;
+        margin: 0 0 20px;
+        height: 172px;
+    }
+    .contacts__form {
+        width: 100%;
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contacts__label {
+        margin: 90px 10px 0;
+    }
+    .contacts__wrapper {
+        margin: 10px 10px 0;
+    }
+}

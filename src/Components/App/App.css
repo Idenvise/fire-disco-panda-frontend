@@ -1,0 +1,38 @@
+@import url("/node_modules/normalize.css/normalize.css");
+@import url("../../vendor/fonts/fonts.css");
+
+.page {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Glober', 'Courier New', Courier, monospace;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.label {
+    position: relative;
+    font-size: 54px;
+    font-weight: 400;
+    margin: 144px 0 0 144px;
+}
+
+#flex {
+    display: flex;
+}
+
+
+@media screen and (max-width: 830px) {
+    .label {
+        font-size: 28px;
+    }
+}

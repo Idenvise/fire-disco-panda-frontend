@@ -1,0 +1,70 @@
+.experience__label {
+    margin: 255px 0 0 120px;
+}
+
+.experience__label::after {
+    content: 'Our experience';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    margin-left: -18px;
+}
+
+.experience__company {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 44px 90px 0 120px;
+    gap: 45px;
+}
+
+@media screen and (max-width: 1100px) {
+    .experience__company {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .experience__label::after {
+        font-size: 60px;
+        line-height: 60px;
+        margin: 0 0 0 -8px;
+    }
+    .experience__label {
+        margin: 30px 0 0 75px;
+    }
+    .experience__company {
+        margin: 44px 65px 0 65px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .experience__company {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .experience__company {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+@media screen and (max-width: 500px) {
+    .experience__label {
+        margin-left: 10px;
+    }
+    .experience__label::after {
+        font-size: 48px;
+        line-height: 52px;
+    }
+    .experience__company {
+        margin: 44px 10px 0;
+    }
+}
+

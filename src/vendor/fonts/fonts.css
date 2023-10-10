@@ -1,0 +1,24 @@
+@font-face {
+     font-family: 'Glober';
+     font-style:  normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url("GloberRegular.woff2") format("woff2"),
+          url("GloberRegular.woff") format("woff");
+   }
+@font-face {
+    font-family: 'Glober';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("GloberSemiBoldFree.woff2") format("woff2"),
+         url("GloberSemiBoldFree.woff") format("woff");
+  }
+@font-face {
+   font-family: 'Glober';
+   font-style:  normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url("GloberLight.woff2") format("woff2"),
+        url("GloberLight.woff") format("woff");
+ }

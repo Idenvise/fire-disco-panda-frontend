@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    width: 100%;
+    margin-top: 36px;
+    justify-content: space-between;
+}
+
+.header__company-info {
+    margin-left: 9%;
+}
+
+.header__name {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.header__about {
+    font-size: 20px;
+    font-weight: 600px;
+    margin: 0 0 0 3px;
+    line-height: 3px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.header__nav {
+    display: flex;
+    margin: 4px 7.5% 0 0;
+}
+
+.header__nav-button {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 400;
+    height: 27px;
+    margin-right: 27px;
+}
+
+.header__nav-button:last-of-type {
+    margin-right: 40px;
+}
+
+.header__nav-button:first-of-type {
+    border-bottom: 2px solid #6A51A2;
+}
+
+.header__lang-burger {
+    display: flex;
+}
+
+.header__lang {
+    margin: 0 11px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header__burger {
+    background-image: url('../../../public/images/header__burger-menu.svg');
+    background-color: transparent;
+    box-sizing: content-box;
+    background-repeat: no-repeat;
+    padding: 0;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 3px;
+    
+}
+
+@media screen and (max-width: 1439px) {
+    .header__nav-button {
+        margin-right: 1%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header__name {
+        font-size: 20px;
+    }
+    .header__about {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header__nav-button {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .header__nav-button:last-of-type {
+        margin-right: 20px;
+    }
+    .header__lang {
+        font-size: 14px;
+    }
+    .header__burger {
+        display: flex;
+        width: 35px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .header__nav-button {
+        font-size: 13px;
+        padding: 0 12px;
+    }
+    .header__nav-button:last-of-type {
+        margin-right: 10px;
+    }
+    .header__lang {
+        font-size: 13px;
+    }
+    .header__burger {
+        display: flex;
+        width: 35px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .header__company-info {
+        margin-left: 18px;
+    }
+    .header__nav {
+        margin-right: 26px;
+    }
+    .header__name{
+        font-size: 26px;
+    }
+    .header {
+        margin-top: 26px;
+    }
+}
