@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Idenvise/fire-disco-panda-frontend/static/css/main.3787a5b1.css",
+    "main.js": "/Idenvise/fire-disco-panda-frontend/static/js/main.740ab69b.js",
+    "static/js/787.387474ff.chunk.js": "/Idenvise/fire-disco-panda-frontend/static/js/787.387474ff.chunk.js",
+    "static/media/FDP.svg": "/Idenvise/fire-disco-panda-frontend/static/media/FDP.2fd5048574828c59239b.svg",
+    "static/media/GloberRegular.woff": "/Idenvise/fire-disco-panda-frontend/static/media/GloberRegular.a8a16e4d8c4c36c7fdd6.woff",
+    "static/media/GloberLight.woff": "/Idenvise/fire-disco-panda-frontend/static/media/GloberLight.d5ad83bc078aa5d46487.woff",
+    "static/media/GloberSemiBoldFree.woff": "/Idenvise/fire-disco-panda-frontend/static/media/GloberSemiBoldFree.0b1a599dceb28b4809e8.woff",
+    "static/media/GloberRegular.woff2": "/Idenvise/fire-disco-panda-frontend/static/media/GloberRegular.f5f87e5278f118f187dd.woff2",
+    "static/media/GloberLight.woff2": "/Idenvise/fire-disco-panda-frontend/static/media/GloberLight.ce657bdb3bbbe0034f94.woff2",
+    "static/media/GloberSemiBoldFree.woff2": "/Idenvise/fire-disco-panda-frontend/static/media/GloberSemiBoldFree.62ad141188f6aaa27e68.woff2",
+    "index.html": "/Idenvise/fire-disco-panda-frontend/index.html",
+    "static/media/header__burger-menu.svg": "/Idenvise/fire-disco-panda-frontend/static/media/header__burger-menu.570907f4b1a72f25d914.svg",
+    "main.3787a5b1.css.map": "/Idenvise/fire-disco-panda-frontend/static/css/main.3787a5b1.css.map",
+    "main.740ab69b.js.map": "/Idenvise/fire-disco-panda-frontend/static/js/main.740ab69b.js.map",
+    "787.387474ff.chunk.js.map": "/Idenvise/fire-disco-panda-frontend/static/js/787.387474ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3787a5b1.css",
+    "static/js/main.740ab69b.js"
+  ]
+}
